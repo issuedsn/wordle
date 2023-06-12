@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>joyworld, Wordle!</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- 헤더영역 -->
+    <header>
+      <div class="info-bar">
+        <div class="info-bar__menu">
+          <img src="assets/menubar.svg" alt="menubar" />
+        </div>
+        <div class="info-bar__logo">Wordle</div>
+        <div class="info-bar__icons">
+          <img src="assets/mark.svg" alt="QnA" />
+          <img src="assets/chart.svg" alt="rank" />
+          <img src="assets/cog.svg" alt="setup" />
+        </div>
+      </div>
+    </header>
+    <!-- 메인영역 -->
+    <main>
+      <div id="timer">time: 00:00</div>
+      <div class="board-row row-0">
+        <div class="board-block" data-index="01"></div>
+        <div class="board-block" data-index="02"></div>
+        <div class="board-block" data-index="03"></div>
+        <div class="board-block" data-index="04"></div>
+        <div class="board-block" data-index="05"></div>
+      </div>
+      <div class="board-row row-1">
+        <div class="board-block" data-index="06"></div>
+        <div class="board-block" data-index="07"></div>
+        <div class="board-block" data-index="08"></div>
+        <div class="board-block" data-index="09"></div>
+        <div class="board-block" data-index="10"></div>
+      </div>
+      <div class="board-row row-2">
+        <div class="board-block" data-index="11"></div>
+        <div class="board-block" data-index="12"></div>
+        <div class="board-block" data-index="13"></div>
+        <div class="board-block" data-index="14"></div>
+        <div class="board-block" data-index="15"></div>
+      </div>
+      <div class="board-row row-3">
+        <div class="board-block" data-index="16"></div>
+        <div class="board-block" data-index="17"></div>
+        <div class="board-block" data-index="18"></div>
+        <div class="board-block" data-index="19"></div>
+        <div class="board-block" data-index="20"></div>
+      </div>
+      <div class="board-row row-4">
+        <div class="board-block" data-index="21"></div>
+        <div class="board-block" data-index="22"></div>
+        <div class="board-block" data-index="23"></div>
+        <div class="board-block" data-index="24"></div>
+        <div class="board-block" data-index="25"></div>
+      </div>
+      <div class="board-row row-5">
+        <div class="board-block" data-index="26"></div>
+        <div class="board-block" data-index="27"></div>
+        <div class="board-block" data-index="28"></div>
+        <div class="board-block" data-index="29"></div>
+        <div class="board-block" data-index="30"></div>
+      </div>
+    </main>
+    <!-- 푸터영역 -->
+    <footer>
+      <div class="keyboard-row">
+        <button class="keyboard-row_btn" data-key="Q">Q</button>
+        <button class="keyboard-row_btn" data-key="W">W</button>
+        <button class="keyboard-row_btn" data-key="E">E</button>
+        <button class="keyboard-row_btn" data-key="R">R</button>
+        <button class="keyboard-row_btn" data-key="T">T</button>
+        <button class="keyboard-row_btn" data-key="Y">Y</button>
+        <button class="keyboard-row_btn" data-key="U">U</button>
+        <button class="keyboard-row_btn" data-key="I">I</button>
+        <button class="keyboard-row_btn" data-key="O">O</button>
+        <button class="keyboard-row_btn" data-key="P">P</button>
+      </div>
+      <div class="keyboard-row">
+        <button class="keyboard-row_btn" data-key="A">A</button>
+        <button class="keyboard-row_btn" data-key="S">S</button>
+        <button class="keyboard-row_btn" data-key="D">D</button>
+        <button class="keyboard-row_btn" data-key="F">F</button>
+        <button class="keyboard-row_btn" data-key="G">G</button>
+        <button class="keyboard-row_btn" data-key="H">H</button>
+        <button class="keyboard-row_btn" data-key="J">J</button>
+        <button class="keyboard-row_btn" data-key="K">K</button>
+        <button class="keyboard-row_btn" data-key="L">L</button>
+      </div>
+      <div class="keyboard-row">
+        <button class="keyboard-row_btn module" data-key="ENTER">ENTER</button>
+        <button class="keyboard-row_btn" data-key="Z">Z</button>
+        <button class="keyboard-row_btn" data-key="X">X</button>
+        <button class="keyboard-row_btn" data-key="C">C</button>
+        <button class="keyboard-row_btn" data-key="V">V</button>
+        <button class="keyboard-row_btn" data-key="B">B</button>
+        <button class="keyboard-row_btn" data-key="N">N</button>
+        <button class="keyboard-row_btn" data-key="M">M</button>
+        <button class="keyboard-row_btn module" data-key="BACK">
+          <span>
+            <img src="assets/backspace.svg" alt="backspace" />
+          </span>
+        </button>
+      </div>
+    </footer>
+  </body>
+</html>
